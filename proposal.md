@@ -1,29 +1,28 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *Eilmer: An 11-century Benedictine monk*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+*Eilmer is a hypersonic flow solver built on a finite-volume formulation that is capable of solving the Navier-Stokes equations in 2D and 3D computational domains, discretised with structured or unstructured grids. Multiple slope limiters are implemented to ensure numerical stability near shocks and regions of strong gradients. *
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |https://github.com/gdtk-uq/gdtk|
+| Main/documentation website |https://gdtk.uqcloud.net/docs/all-the-docs/about/|
+| Year project was started |2015|
+| Number of contributors in the past year | 14 |
+| Number of contributors in the lifetime of the project |21|
+| Number of distinct affiliations |2-5|
+| Where do development discussions take place? |GitHub/GitLab issues|
+| Typical number of emails/comments per week? |4|
+| Typical number of commits per week? |12|
+| Typical commit size | 210 |
+| How does the project accept contributions? | pull requests|
+| Does the project have an automated test suite? | yes|
+| Does the project use continuous integration? | no |
+| Are any legal/licensing steps required to contribute? | no|
 
 ### Install and run
 
