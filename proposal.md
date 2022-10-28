@@ -29,19 +29,18 @@ Please edit this file and push to your repository.
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
+- [-] I have installed the software
+- [-] I have run at least one example
+- [-] I have run the test suite
 - [ ] The test suite passes
+
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+Eilmer was installed with sucess on my personal machine (Apple M1). I ran an example case and obtained correct results. I ran a regression test on the
+gas dynamics section and found that all cases passed except for one. Specifically, one case failed to find a "cea2 exe file". However, cea is a NASA tool 
+used to compute chemical nonequilibrium cases, and I do not have it installed. Although this is odd that the installation instructions did not require it,
+I do not believe that it is required. If I choose to continue this project I will try to resolve this issue. Otherwise, the code seems to be behaving as expected.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
